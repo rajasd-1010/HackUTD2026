@@ -19,7 +19,7 @@ export function Staff() {
   useEffect(() => {
     const load = () => api<Metrics>('/nm/metrics').then(setMetrics).catch(() => {});
     load();
-    api<Session[]>('/nm/advisor/handoffs').then(setItems).catch(() => {});
+    api<Session[]>('/nm/advisor/handoffs').then((x) => Array.isArray(x) && setItems(x)).catch(() => {});
     const s = io(API_ORIGIN);
     s.on('connect', () => s.emit('nm:advisor'));
     s.on('nm:handoffs', setItems);

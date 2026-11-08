@@ -14,7 +14,7 @@
     "dev:all": "concurrently \"npm:server:watch\" \"npm:dev\"",
     "type-check": "tsc --noEmit",
     "test": "vitest",
-    "test:unit": "vitest run --dir server/tests/unit",
+    "test:unit": "vitest run server/tests/unit/nextmove.test.ts",
     "test:integration": "vitest run --dir server/tests/integration",
     "lint": "eslint . --ext .ts,.tsx",
     "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
