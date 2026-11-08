@@ -64,5 +64,5 @@ async function testChat() {
   t = await testChat();
   if (t.ok) { console.log(`   ✓ That was it: "${p.llm}" is not available on your plan. Add ELEVENLABS_LLM=gemini-2.0-flash to server/key.env so setup keeps it.`); return; }
   console.log(`   ✗ still failing ${short(t.body)}`);
-  console.log('\nNone of the quick fixes worked. Copy everything above and send it to Claude.');
+  console.log('\nNone of the quick fixes worked. Check the agent in the ElevenLabs dashboard.');
 })();
