@@ -1,0 +1,167 @@
+openapi: 3.0.0
+info:
+  title: Toyota Finance API
+  version: 1.0.0
+  description: Production-ready API for Toyota vehicle shopping and financing
+servers:
+  - url: http://localhost:3001/api
+    description: Local development
+  - url: https://api.toyota-finance.example.com/api
+    description: Production
+paths:
+  /vehicles:
+    get:
+      summary: Get vehicles with filtering and pagination
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            default: 1
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            default: 20
+        - name: search
+          in: query
+          schema:
+            type: string
+        - name: type
+          in: query
+          schema:
+            type: string
+        - name: make
+          in: query
+          schema:
+            type: string
+        - name: drivetrain
+          in: query
+          schema:
+            type: string
+        - name: fuelType
+          in: query
+          schema:
+            type: string
+        - name: minPrice
+          in: query
+          schema:
+            type: number
+        - name: maxPrice
+          in: query
+          schema:
+            type: number
+        - name: minMpg
+          in: query
+          schema:
+            type: number
+        - name: color
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VehiclesResponse'
+  /compare:
+    post:
+      summary: Compare two vehicles
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CompareRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ComparisonResult'
+  /chat:
+    post:
+      summary: AI chatbot with NLU
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatRequest'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatResponse'
+  /health:
+    get:
+      summary: Health check
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+components:
+  schemas:
+    Vehicle:
+      type: object
+      properties:
+        id: { type: string }
+        vin: { type: string }
+        make: { type: string }
+        model: { type: string }
+        trim: { type: string }
+        year: { type: number }
+        msrp: { type: number }
+        dealerPrice: { type: number }
+        type: { type: string }
+        category: { type: string }
+        mpg: { type: object }
+        drivetrain: { type: string }
+        electrified: { type: boolean }
+        fuelType: { type: string }
+        engine: { type: object }
+        transmission: { type: string }
+        seats: { type: number }
+        dimensions: { type: object }
+        colors: { type: array, items: { type: object } }
+        features: { type: array, items: { type: string } }
+        description: { type: string }
+    VehiclesResponse:
+      type: object
+      properties:
+        vehicles: { type: array, items: { $ref: '#/components/schemas/Vehicle' } }
+        pagination: { type: object }
+    CompareRequest:
+      type: object
+      properties:
+        vehicle1: { type: string }
+        vehicle2: { type: string }
+        query: { type: string }
+        color1: { type: string }
+        color2: { type: string }
+    ComparisonResult:
+      type: object
+    ChatRequest:
+      type: object
+      properties:
+        message: { type: string }
+        conversationHistory: { type: array }
+        voiceInput: { type: boolean }
+    ChatResponse:
+      type: object
+    HealthResponse:
+      type: object
+      properties:
+        status: { type: string, enum: ['ok', 'degraded', 'down'] }
+        timestamp: { type: string }
+        version: { type: string }
+        services: { type: object }
+

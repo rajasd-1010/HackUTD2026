@@ -1,0 +1,469 @@
+[
+  {
+    "id": "TOY-2025-CAM-LE-HYB-001",
+    "vin": "4T1B11HK5KU123456",
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "LE Hybrid",
+    "year": 2025,
+    "msrp": 30000,
+    "dealerPrice": 28500,
+    "type": "Sedan",
+    "category": "Midsize",
+    "mpg": {
+      "combined": 52,
+      "city": 51,
+      "highway": 53
+    },
+    "drivetrain": "FWD",
+    "electrified": true,
+    "fuelType": "Hybrid",
+    "engine": {
+      "displacement": "2.5L",
+      "cylinders": 4,
+      "type": "Hybrid",
+      "horsepower": 208,
+      "torque": 163
+    },
+    "transmission": "eCVT",
+    "seats": 5,
+    "dimensions": {
+      "length": 192.1,
+      "width": 72.4,
+      "height": 56.9,
+      "wheelbase": 111.2
+    },
+    "colors": [
+      {
+        "name": "Ice Cap",
+        "code": "ICE",
+        "imageUrl": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=1200&h=800&fit=crop",
+        "hex": "#F5F5F0"
+      },
+      {
+        "name": "Midnight Black Metallic",
+        "code": "BLK",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Celestial Silver Metallic",
+        "code": "SLV",
+        "imageUrl": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=1200&h=800&fit=crop",
+        "hex": "#C0C0C0"
+      },
+      {
+        "name": "Ruby Flare Pearl",
+        "code": "RED",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#8B0000"
+      }
+    ],
+    "features": [
+      "Toyota Safety Sense 2.5+",
+      "Apple CarPlay",
+      "Android Auto",
+      "Blind Spot Monitor",
+      "Wireless Charging"
+    ],
+    "description": "Efficient and comfortable midsize sedan with exceptional fuel economy and advanced safety features."
+  },
+  {
+    "id": "TOY-2025-CAM-XSE-002",
+    "vin": "4T1B11HK5KU123457",
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "XSE",
+    "year": 2025,
+    "msrp": 35000,
+    "dealerPrice": 33200,
+    "type": "Sedan",
+    "category": "Midsize",
+    "mpg": {
+      "combined": 32,
+      "city": 28,
+      "highway": 39
+    },
+    "drivetrain": "FWD",
+    "electrified": false,
+    "fuelType": "Gasoline",
+    "engine": {
+      "displacement": "3.5L",
+      "cylinders": 6,
+      "type": "V6",
+      "horsepower": 301,
+      "torque": 267
+    },
+    "transmission": "8-Speed Automatic",
+    "seats": 5,
+    "dimensions": {
+      "length": 192.1,
+      "width": 72.4,
+      "height": 56.9,
+      "wheelbase": 111.2
+    },
+    "colors": [
+      {
+        "name": "Midnight Black Metallic",
+        "code": "BLK",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Wind Chill Pearl",
+        "code": "WHT",
+        "imageUrl": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=1200&h=800&fit=crop",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Blueprint",
+        "code": "BLU",
+        "imageUrl": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=1200&h=800&fit=crop",
+        "hex": "#1E3A8A"
+      }
+    ],
+    "features": [
+      "Sport-tuned suspension",
+      "JBL Audio System",
+      "Panoramic sunroof",
+      "Heated and ventilated seats",
+      "Toyota Safety Sense 2.5+"
+    ],
+    "description": "Sporty trim with powerful V6 engine and premium features for an engaging driving experience."
+  },
+  {
+    "id": "TOY-2025-RAV-XLE-HYB-003",
+    "vin": "JTMB1RFV8MD123458",
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "XLE Hybrid",
+    "year": 2025,
+    "msrp": 36000,
+    "dealerPrice": 34200,
+    "type": "SUV",
+    "category": "Compact",
+    "mpg": {
+      "combined": 40,
+      "city": 41,
+      "highway": 38
+    },
+    "drivetrain": "AWD",
+    "electrified": true,
+    "fuelType": "Hybrid",
+    "engine": {
+      "displacement": "2.5L",
+      "cylinders": 4,
+      "type": "Hybrid",
+      "horsepower": 219,
+      "torque": 206
+    },
+    "transmission": "eCVT",
+    "seats": 5,
+    "dimensions": {
+      "length": 180.9,
+      "width": 73.0,
+      "height": 67.2,
+      "wheelbase": 105.9
+    },
+    "colors": [
+      {
+        "name": "Lunar Rock",
+        "code": "LUN",
+        "imageUrl": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=1200&h=800&fit=crop",
+        "hex": "#708090"
+      },
+      {
+        "name": "Midnight Black Metallic",
+        "code": "BLK",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Blueprint",
+        "code": "BLU",
+        "imageUrl": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=1200&h=800&fit=crop",
+        "hex": "#1E3A8A"
+      },
+      {
+        "name": "Ruby Flare Pearl",
+        "code": "RED",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#8B0000"
+      }
+    ],
+    "features": [
+      "AWD-i",
+      "Multi-Terrain Select",
+      "Toyota Safety Sense 2.5+",
+      "Power liftgate",
+      "Wireless Charging"
+    ],
+    "description": "Versatile compact SUV with all-wheel drive and excellent efficiency for adventure-ready driving."
+  },
+  {
+    "id": "TOY-2025-RAV-PRM-PHEV-004",
+    "vin": "JTMB1RFV8MD123459",
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "Prime XSE",
+    "year": 2025,
+    "msrp": 45000,
+    "dealerPrice": 42750,
+    "type": "SUV",
+    "category": "Compact",
+    "mpg": {
+      "combined": 94,
+      "city": 40,
+      "highway": 36,
+      "electricRange": 42
+    },
+    "drivetrain": "AWD",
+    "electrified": true,
+    "fuelType": "Plug-in Hybrid",
+    "engine": {
+      "displacement": "2.5L",
+      "cylinders": 4,
+      "type": "Plug-in Hybrid",
+      "horsepower": 302,
+      "torque": 165
+    },
+    "transmission": "eCVT",
+    "seats": 5,
+    "dimensions": {
+      "length": 180.9,
+      "width": 73.0,
+      "height": 67.2,
+      "wheelbase": 105.9
+    },
+    "colors": [
+      {
+        "name": "Supersonic Red",
+        "code": "RED",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#DC143C"
+      },
+      {
+        "name": "Midnight Black Metallic",
+        "code": "BLK",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Wind Chill Pearl",
+        "code": "WHT",
+        "imageUrl": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=1200&h=800&fit=crop",
+        "hex": "#FFFFFF"
+      }
+    ],
+    "features": [
+      "EV Mode",
+      "Fast charging",
+      "Premium JBL Audio",
+      "Advanced safety suite",
+      "Panoramic sunroof"
+    ],
+    "description": "Plug-in hybrid with 42 miles of electric range and powerful performance for eco-conscious drivers."
+  },
+  {
+    "id": "TOY-2025-COR-SE-HYB-005",
+    "vin": "5YFB3FHB8KP123460",
+    "make": "Toyota",
+    "model": "Corolla",
+    "trim": "SE Hybrid",
+    "year": 2025,
+    "msrp": 24000,
+    "dealerPrice": 22800,
+    "type": "Sedan",
+    "category": "Compact",
+    "mpg": {
+      "combined": 53,
+      "city": 53,
+      "highway": 52
+    },
+    "drivetrain": "FWD",
+    "electrified": true,
+    "fuelType": "Hybrid",
+    "engine": {
+      "displacement": "1.8L",
+      "cylinders": 4,
+      "type": "Hybrid",
+      "horsepower": 121,
+      "torque": 105
+    },
+    "transmission": "eCVT",
+    "seats": 5,
+    "dimensions": {
+      "length": 182.3,
+      "width": 70.1,
+      "height": 56.5,
+      "wheelbase": 106.3
+    },
+    "colors": [
+      {
+        "name": "Ice Cap",
+        "code": "ICE",
+        "imageUrl": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=1200&h=800&fit=crop",
+        "hex": "#F5F5F0"
+      },
+      {
+        "name": "Midnight Black Metallic",
+        "code": "BLK",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Blueprint",
+        "code": "BLU",
+        "imageUrl": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=1200&h=800&fit=crop",
+        "hex": "#1E3A8A"
+      }
+    ],
+    "features": [
+      "Toyota Safety Sense 2.0",
+      "7-inch touchscreen",
+      "Apple CarPlay",
+      "LED headlights",
+      "Blind Spot Monitor"
+    ],
+    "description": "Affordable compact car with outstanding fuel economy and modern technology features."
+  },
+  {
+    "id": "HON-2025-ACC-HYB-006",
+    "vin": "1HGCV1F30MA123461",
+    "make": "Honda",
+    "model": "Accord",
+    "trim": "Hybrid",
+    "year": 2025,
+    "msrp": 32000,
+    "dealerPrice": 30400,
+    "type": "Sedan",
+    "category": "Midsize",
+    "mpg": {
+      "combined": 48,
+      "city": 48,
+      "highway": 47
+    },
+    "drivetrain": "FWD",
+    "electrified": true,
+    "fuelType": "Hybrid",
+    "engine": {
+      "displacement": "2.0L",
+      "cylinders": 4,
+      "type": "Hybrid",
+      "horsepower": 212,
+      "torque": 232
+    },
+    "transmission": "eCVT",
+    "seats": 5,
+    "dimensions": {
+      "length": 195.7,
+      "width": 73.3,
+      "height": 57.1,
+      "wheelbase": 111.4
+    },
+    "colors": [
+      {
+        "name": "Platinum White Pearl",
+        "code": "WHT",
+        "imageUrl": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=1200&h=800&fit=crop",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Radiant Red Metallic",
+        "code": "RED",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#DC143C"
+      },
+      {
+        "name": "Still Night Pearl",
+        "code": "BLU",
+        "imageUrl": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=1200&h=800&fit=crop",
+        "hex": "#1E3A8A"
+      },
+      {
+        "name": "Meteoroid Gray Metallic",
+        "code": "GRY",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#708090"
+      }
+    ],
+    "features": [
+      "Honda Sensing",
+      "Apple CarPlay",
+      "Wireless charging",
+      "Adaptive cruise control",
+      "Lane keeping assist"
+    ],
+    "description": "Efficient midsize sedan with hybrid powertrain and spacious interior for comfortable daily driving."
+  },
+  {
+    "id": "MAZ-2025-MAZ3-SEL-007",
+    "vin": "JM1BN1U78M1123462",
+    "make": "Mazda",
+    "model": "Mazda3",
+    "trim": "Select",
+    "year": 2025,
+    "msrp": 26000,
+    "dealerPrice": 24700,
+    "type": "Sedan",
+    "category": "Compact",
+    "mpg": {
+      "combined": 30,
+      "city": 27,
+      "highway": 35
+    },
+    "drivetrain": "FWD",
+    "electrified": false,
+    "fuelType": "Gasoline",
+    "engine": {
+      "displacement": "2.5L",
+      "cylinders": 4,
+      "type": "SkyActiv-G",
+      "horsepower": 191,
+      "torque": 186
+    },
+    "transmission": "6-Speed Automatic",
+    "seats": 5,
+    "dimensions": {
+      "length": 183.5,
+      "width": 70.7,
+      "height": 56.9,
+      "wheelbase": 107.3
+    },
+    "colors": [
+      {
+        "name": "Snowflake White Pearl Mica",
+        "code": "WHT",
+        "imageUrl": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=1200&h=800&fit=crop",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Jet Black Mica",
+        "code": "BLK",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Soul Red Crystal Metallic",
+        "code": "RED",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#DC143C"
+      },
+      {
+        "name": "Polymetal Gray Metallic",
+        "code": "GRY",
+        "imageUrl": "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=1200&h=800&fit=crop",
+        "hex": "#708090"
+      }
+    ],
+    "features": [
+      "SkyActiv Technology",
+      "i-Activsense",
+      "Apple CarPlay",
+      "Bose Audio",
+      "Mazda Connect"
+    ],
+    "description": "Sporty compact sedan with premium interior and engaging driving dynamics for enthusiasts."
+  }
+]
+

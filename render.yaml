@@ -1,0 +1,30 @@
+# One-click deploy on Render: New > Blueprint > pick this repo.
+services:
+  - type: web
+    name: fast-and-financed
+    runtime: node
+    plan: free
+    buildCommand: npm install --include=dev --no-audit --no-fund && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/nm/config
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: ELEVENLABS_API_KEY
+        sync: false
+      - key: ELEVENLABS_AGENT_ID
+        sync: false
+      - key: ELEVENLABS_PHONE_NUMBER_ID
+        sync: false
+      - key: PHOTON_PROJECT_ID
+        sync: false
+      - key: PHOTON_API_KEY
+        sync: false
+      - key: PHOTON_NUMBER
+        sync: false
+      - key: PHOTON_SIP_USERNAME
+        sync: false
+      - key: PHOTON_SIP_PASSWORD
+        sync: false
+      - key: TOOL_SECRET
+        generateValue: true
